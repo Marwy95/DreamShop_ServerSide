@@ -1,11 +1,14 @@
-﻿using DreamShopApp.Models;
+﻿using DreamShopApp.Dtos.Category;
+using DreamShopApp.Models;
 namespace DreamShopApp.Interfaces
     
 {
     public interface ICategoryRepository
     {
-        ICollection<Category> GetAllCategories();
-        Category GetCategoryDetails(int id);
-        Category GetCategoryDetails(string name);
+       
+        ICollection<CategoryDto > GetAllCategories();
+        void AddCategory(CreateCategoryDto createCategoryDto);
+        CategoryDto GetCategoryById(int categoryId);
+        //Category GetCategoryDetails(string name);
     }
 }

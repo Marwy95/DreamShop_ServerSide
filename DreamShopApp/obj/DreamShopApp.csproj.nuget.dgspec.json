@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShopApp\\DreamShopApp\\DreamShopApp.csproj": {}
+    "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShop_ServerSide\\DreamShopApp\\DreamShopApp.csproj": {}
   },
   "projects": {
-    "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShopApp\\DreamShopApp\\DreamShopApp.csproj": {
+    "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShop_ServerSide\\DreamShopApp\\DreamShopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShopApp\\DreamShopApp\\DreamShopApp.csproj",
+        "projectUniqueName": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShop_ServerSide\\DreamShopApp\\DreamShopApp.csproj",
         "projectName": "DreamShopApp",
-        "projectPath": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShopApp\\DreamShopApp\\DreamShopApp.csproj",
+        "projectPath": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShop_ServerSide\\DreamShopApp\\DreamShopApp.csproj",
         "packagesPath": "C:\\Users\\marwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShopApp\\DreamShopApp\\obj\\",
+        "outputPath": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\DreamShop_ServerSide\\DreamShopApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marwa\\AppData\\Roaming\\NuGet\\NuGet.Config",

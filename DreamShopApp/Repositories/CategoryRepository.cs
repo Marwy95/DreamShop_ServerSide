@@ -1,6 +1,10 @@
 ﻿using DreamShopApp.Data;
+using DreamShopApp.Dtos.Category;
 using DreamShopApp.Interfaces;
+using DreamShopApp.Mappers;
 using DreamShopApp.Models;
+using Microsoft.EntityFrameworkCore.Diagnostics;
+
 namespace DreamShopApp.Repositories
 {
     public class CategoryRepository:ICategoryRepository
@@ -10,14 +14,28 @@ namespace DreamShopApp.Repositories
         {
             _context = context;
         }
-        public ICollection<Category> GetAllCategories()
+        public ICollection<CategoryDto> GetAllCategories()
         {
-            return _context.Categories.OrderBy(c => c.Name).ToList();
+            return _context.Categories.Select(c => c.ToCategoryDto()).ToList();
+          
         }
-        public Category GetCategoryDetails(int id)
+        public void AddCategory(CreateCategoryDto createCategoryDto)
         {
-            return _context.Categories.Where(c=>c.Id==id).FirstOrDefault();
+            //var categorymodel = ;
+            _context.Categories.Add(createCategoryDto.ToCategoryFromCreateCategoryDto());
+            _context.SaveChanges();
+        }
+        public CategoryDto GetCategoryById(int categoryId)
+        {
+            var category = _context.Categories.Find(categoryId);
+            if(category == null) throw new Exception("invalid id");
+
+            return category.ToCategoryDto();
+            
+           
+            
         }
 
+       
     }
 }
