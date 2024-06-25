@@ -7,10 +7,15 @@ The DreamShop website is designed to provide a platform for buying and selling p
 3. Entity Framework. 
 4. SQL Server. 
 ## Features
-1. Products Gallery and filters.
-2. Shopping cart and checkout process.
-3. User registration and authentication.
-4. Order History.
-5. Favorite page.
-6. Payment gateway integration.
-7. Admin for managing products, orders, and users
+1. Categories Browsing. //Done 
+2. Products Browsing and Searching. //In Progress
+3. Product Details and Reviews. //In Progress
+4. Products Filter.
+5. User registration and authentication.
+6. User Profile Management.
+7. Shopping cart and checkout process.
+8. Order History.
+9. Favorite page.
+10. Payment gateway integration.
+11. Reporting and Analytics.
+12. Admin Dashboard for managing products, orders, and users
